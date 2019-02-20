@@ -1,0 +1,16 @@
+version: "3"
+services:
+
+  consumer1:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/consumer1
+
+  consumer2:
+    build: .
+    ports:
+      - "8082:8081"
+    volumes:
+      - .:/consumer2

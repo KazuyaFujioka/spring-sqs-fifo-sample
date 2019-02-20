@@ -1,0 +1,4 @@
+rootProject.name = 'spring-sqs-fifo-sample'
+
+include ':spring-sqs-producer'
+include ':spring-sqs-consumer'
